@@ -8,11 +8,12 @@ void main()
     printf("Enter the value of n: ");
     scanf("%d", &n);
 
-    while(n>0){
+    while (n > 0)
+    {
         sum += i;
         i *= 2;
         n--;
     }
 
-    printf("Sum of the series is %d", sum);    
+    printf("Sum of the series is %d", sum);
 }
